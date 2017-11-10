@@ -14,6 +14,6 @@ public class MainServiceApplication {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World";
+        return "Go to <a href = \"/hello\">hello form</a>";
     }
 }
